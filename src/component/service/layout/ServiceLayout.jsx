@@ -19,38 +19,38 @@ class ServiceLayout extends React.PureComponent {
         <div
           className={Styles.root__service__div}
           style={{
-            background: `url(${Image.test}) no-repeat center fixed`,
+            background: `url(${Image.bg1}) no-repeat center fixed`,
             backgroundSize: 'cover',
           }}
         >
-          <span className={Styles.root__service__span}>
-            NBA,虎扑NBA中文网,NBA为主的专业篮球网站,专注于NBA直播,NBA视频,
-            图片及原创NBA新闻,分析等深入内容,拥有良好氛围的NBA火箭,湖人,热火等全部NBA球队
-          </span>
+            <span className={Styles.root__service__span}>
+              平面设计、3D设计、园林设计、环境设计、建筑设计、印刷、喷绘、雕刻、广告灯箱及各类广告需要的灯光制作、
+                各类媒体投放（户外擎天柱、路边广告灯箱、电视媒体、广播媒体、报纸媒体、网络媒体的发布及设计） 亚克力吸塑字、雕刻字、水晶字、钛金铁皮字
+            </span>
         </div>
         <div
           className={Styles.root__service__div}
           style={{
-            background: `url(${Image.test2}) no-repeat center`,
+            background: `url(${Image.bg2}) no-repeat center`,
             backgroundSize: 'cover',
           }}
         >
-          <span className={Styles.root__service__span}>
-            NBA,虎扑NBA中文网,NBA为主的专业篮球网站,专注于NBA直播,NBA视频,
-            图片及原创NBA新闻,分析等深入内容,拥有良好氛围的NBA火箭,湖人,热火等全部NBA球队
-          </span>
+            <span className={Styles.root__service__span}>
+            平面设计、3D设计、园林设计、环境设计、建筑设计、印刷、喷绘、雕刻、广告灯箱及各类广告需要的灯光制作、
+                各类媒体投放（户外擎天柱、路边广告灯箱、电视媒体、广播媒体、报纸媒体、网络媒体的发布及设计） 亚克力吸塑字、雕刻字、水晶字、钛金铁皮字
+            </span>
         </div>
         <div
           className={Styles.root__service__div}
           style={{
-            background: `url(${Image.test3}) no-repeat center fixed`,
+            background: `url(${Image.bg3}) no-repeat center fixed`,
             backgroundSize: 'cover',
           }}
         >
-          <span className={Styles.root__service__span}>
-            NBA,虎扑NBA中文网,NBA为主的专业篮球网站,专注于NBA直播,NBA视频,
-            图片及原创NBA新闻,分析等深入内容,拥有良好氛围的NBA火箭,湖人,热火等全部NBA球队
-          </span>
+            <span className={Styles.root__service__span}>
+              平面设计、3D设计、园林设计、环境设计、建筑设计、印刷、喷绘、雕刻、广告灯箱及各类广告需要的灯光制作、
+                各类媒体投放（户外擎天柱、路边广告灯箱、电视媒体、广播媒体、报纸媒体、网络媒体的发布及设计） 亚克力吸塑字、雕刻字、水晶字、钛金铁皮字
+            </span>
         </div>
         {/* <div className={Styles.root__first__div}> */}
         {/* <div */}

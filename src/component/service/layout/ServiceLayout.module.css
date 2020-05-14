@@ -27,6 +27,7 @@
   font-weight: bold;
   margin-left: 5rem;
   margin-right: 5rem;
+  text-shadow: #f00 1px 1px 1px;
 }
 
 .root__second__div {

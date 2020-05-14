@@ -48,7 +48,11 @@ class ContactLayout extends React.PureComponent {
             />
           </div>
           <div className={Styles.root__info__div}>
-            <div className={Styles.root__info__name__div}>强强联合</div>
+            <p
+              className={Styles.root__company__info}>
+              <text className={Styles.root__company__name}>永尚广告</text>
+              成立于XXXX，这里聚集了大批互动高手，为客户提供优质的服务和专业的解决方案。这里聚集了大批互动高手，为客户提供优质的服务和专业的解决方案。这里聚集了大批互动高手，为客户提供优质的服务和专业的解决方案。
+            </p>
             <div className={Styles.root__info__common__div}>地址：xxxxxxxxxx</div>
             <div className={Styles.root__info__common__div}>电话：xxxxxxxxxx</div>
             <div className={Styles.root__info__common__div}>邮箱：xxxxxxxxxx</div>

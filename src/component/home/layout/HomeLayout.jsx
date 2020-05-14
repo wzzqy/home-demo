@@ -9,13 +9,13 @@ import Styles from './HomeLayout.module.css';
 
 const DETAIL_IMAGE = [{
   id: 1,
-  value: Image.image1,
+  value: Image.image5,
 }, {
   id: 2,
-  value: Image.image2,
+  value: Image.image5,
 }, {
   id: 3,
-  value: Image.image3,
+  value: Image.image5,
 }];
 
 class HomeLayout extends React.PureComponent {

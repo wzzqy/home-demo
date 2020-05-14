@@ -130,10 +130,12 @@ class MainLayout extends React.PureComponent {
           this.root = ref;
         }}
         onScroll={this.handleScroll}
+        className={Styles.root}
       >
         <Affix target={() => window}>
           <div className={Styles.root__menu__div}>
-            <span className={Styles.root__logo}>强强联合</span>
+            {/*<img src={Image.logo}/>*/}
+            <span className={Styles.root__logo}>永尚广告</span>
             <Menu
               className={scrollY > 0 || defaultKey !== 'home' ? Styles.root__menu__active : Styles.root__menu__normal}
               mode="horizontal"

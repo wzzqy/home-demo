@@ -1,5 +1,8 @@
 /* Created by ZZQ on 2019/4/4 11:30 */
 /* Develop by ZZQ on 2019/4/4 11:30 */
+.root{
+  min-width: 1200px;
+}
 .root__content {
   min-height: 48.1rem;
 }
