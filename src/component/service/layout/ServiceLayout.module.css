@@ -1,0 +1,67 @@
+/* Created by ZZQ on 2019/4/8 18:30 */
+/* Develop by ZZQ on 2019/4/8 18:30 */
+.root {
+  width: 100%;
+  height: 100%;
+  padding-top: 4rem;
+}
+
+.root__title {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  color: #ff6633;
+}
+
+.root__service__div {
+  width: 100%;
+  height: 50rem;
+  display: flex;
+  align-items: center;
+}
+
+.root__service__span {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.root__second__div {
+  height: 50rem;
+  line-height: 50rem;
+  text-align: center;
+}
+
+.root__third__div {
+  height: 50rem;
+  line-height: 50rem;
+  text-align: center;
+}
+
+.root__blur__div {
+  width: 100%;
+  height: 675px;
+  float: left;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
+}
+
+.root__content {
+  height: 100%;
+  line-height: 100px;
+  position: absolute;
+  left: 1px;
+  right: 1px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 40px;
+}

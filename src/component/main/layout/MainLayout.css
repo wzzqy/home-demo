@@ -1,0 +1,11 @@
+/* Created by ZZQ on 2019/4/10 10:05 */
+/* Develop by ZZQ on 2019/4/10 10:05 */
+
+.ant-menu-horizontal > .ant-menu-item:hover, .ant-menu-horizontal > .ant-menu-submenu:hover, .ant-menu-horizontal > .ant-menu-item-active, .ant-menu-horizontal > .ant-menu-submenu-active, .ant-menu-horizontal > .ant-menu-item-open, .ant-menu-horizontal > .ant-menu-submenu-open, .ant-menu-horizontal > .ant-menu-item-selected, .ant-menu-horizontal > .ant-menu-submenu-selected {
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
+
+.ant-menu-horizontal {
+  border-bottom: none;
+}

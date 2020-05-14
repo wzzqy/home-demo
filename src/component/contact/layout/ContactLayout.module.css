@@ -1,0 +1,63 @@
+/* Created by ZZQ on 2019/4/8 18:30 */
+/* Develop by ZZQ on 2019/4/8 18:30 */
+.root {
+  width: 100%;
+  height: calc(100vh);
+  padding-top: 4rem;
+}
+
+.root__title {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  color: #ff6633;
+}
+
+.root__content {
+  display: flex;
+}
+
+.root__image__div {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+
+.root__info__div {
+  width: 50%;
+  height: 100%;
+}
+
+.root__image {
+  width: 25rem;
+  height: 30rem;
+  text-align: center;
+  transition: All 0.4s ease-in-out;
+  -webkit-transition: All 0.4s ease-in-out;
+  -moz-transition: All 0.4s ease-in-out;
+  -o-transition: All 0.4s ease-in-out;
+}
+
+.root__image:hover {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+
+.root__info__name__div {
+  font-size: 1.5rem;
+}
+
+.root__info__common__div {
+  font-size: 1rem;
+}
+
+.root__map {
+  width: 40rem;
+  height: 21rem !important;
+  margin-top: 1rem;
+  border: 2px solid #d9d9d9;
+}
+

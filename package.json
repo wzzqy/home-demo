@@ -1,0 +1,42 @@
+{
+  "name": "home-demo",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "./",
+  "dependencies": {
+    "antd": "^3.16.1",
+    "babel-plugin-import": "^1.11.0",
+    "babel-polyfill": "^6.26.0",
+    "customize-cra": "^0.2.12",
+    "live2d-widget": "^3.1.4",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-app-rewired": "^2.1.1",
+    "react-bmap": "^1.0.96",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject",
+    "lint": "eslint --ext .js,.jsx src",
+    "lintOne": "eslint"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "eslint-config-airbnb": "^17.1.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0"
+  }
+}

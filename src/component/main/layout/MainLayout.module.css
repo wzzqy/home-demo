@@ -1,0 +1,52 @@
+/* Created by ZZQ on 2019/4/4 11:30 */
+/* Develop by ZZQ on 2019/4/4 11:30 */
+.root__content {
+  min-height: 48.1rem;
+}
+
+.root__menu__div {
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+}
+
+.root__menu__normal {
+  text-align: right;
+  line-height: 4rem;
+  background: transparent;
+}
+
+.root__menu__active {
+  text-align: right;
+  line-height: 4rem;
+  background: #ff6633;
+  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.root__logo {
+  float: left;
+  margin-left: 1rem;
+  line-height: 4rem;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.root__item {
+  color: #ffffff;
+}
+
+.root__footer {
+  height: 1.4rem;
+  margin-top: -1.411rem;
+  background-color: #efdfdf;
+  text-align: center;
+  z-index: 99999;
+}
+
+.root__footer__image {
+  width: 20px;
+  vertical-align: bottom;
+}
