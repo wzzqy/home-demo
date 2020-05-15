@@ -134,8 +134,8 @@ class MainLayout extends React.PureComponent {
       >
         <Affix target={() => window}>
           <div className={Styles.root__menu__div}>
-            {/*<img src={Image.logo}/>*/}
-            <span className={Styles.root__logo}>永尚广告</span>
+            {/* <img src={Image.logo}/> */}
+            <span className={Styles.root__logo}>强强联合</span>
             <Menu
               className={scrollY > 0 || defaultKey !== 'home' ? Styles.root__menu__active : Styles.root__menu__normal}
               mode="horizontal"
@@ -160,7 +160,7 @@ class MainLayout extends React.PureComponent {
           >
             京ICP备19021299号
           </a>
-          Copyright © 2019 ZZQ. All Rights Reserved.强强联合 版权所有
+          Copyright © 2020 ZZQ. All Rights Reserved.强强联合 版权所有
         </footer>
       </div>
     );

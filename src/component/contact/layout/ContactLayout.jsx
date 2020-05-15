@@ -44,14 +44,18 @@ class ContactLayout extends React.PureComponent {
             <img
               className={Styles.root__image}
               alt=""
-              src={Image.bg}
+              src={Image.test2}
             />
           </div>
           <div className={Styles.root__info__div}>
             <p
-              className={Styles.root__company__info}>
-              <text className={Styles.root__company__name}>永尚广告</text>
-              成立于XXXX，这里聚集了大批互动高手，为客户提供优质的服务和专业的解决方案。这里聚集了大批互动高手，为客户提供优质的服务和专业的解决方案。这里聚集了大批互动高手，为客户提供优质的服务和专业的解决方案。
+              className={Styles.root__company__info}
+            >
+              <text className={Styles.root__company__name}>强强联合</text>
+              <text>
+                成立于XXXX，这里聚集了大批互动高手，为客户提供优质的服务和专业的解决方案。这里聚集了大批互动高手，为客户提供优质的服务和专业的解决方案。
+                这里聚集了大批互动高手，为客户提供优质的服务和专业的解决方案。
+              </text>
             </p>
             <div className={Styles.root__info__common__div}>地址：xxxxxxxxxx</div>
             <div className={Styles.root__info__common__div}>电话：xxxxxxxxxx</div>
